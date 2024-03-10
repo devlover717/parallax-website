@@ -32,7 +32,7 @@ body {
 }
 
 .textBg .text {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 100;
     letter-spacing: 2px;
     padding: 0.4em;
@@ -43,17 +43,17 @@ body {
     background: #ccc;
     color: #555; 
     text-align: center;
-    padding: 1em 0.5em;
+    padding: 2em 1.5em;
 }
 
 .section1 h1, .section2 h1, .section3 h1{
-    font-weight: 200;
-
+    font-weight: 100;
+    font-size: 2.5rem;
 }
 
 .section1 p, .section2 p, .section3 p{
-    font-size: 10px;
-    max-width: 600px;    
+    font-size: 18px;
+    max-width: 1100px;    
     margin: 1.5em auto;
 }
 
@@ -64,7 +64,7 @@ body {
 
 
 .b-image-2 {
-    height: 250px;
+    height: 400px;
     background-image: url(./images/image2.png);
 }
 
@@ -80,7 +80,11 @@ body {
 }
 
 .b-image-3 {
-    height: 250px;
+    height: 400px;
     background-image: url(./images/image3.png);
 }
 
+
+.hero-section .textBg {
+    transform: translateY(-20px);
+}
